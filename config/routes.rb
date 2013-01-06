@@ -1,5 +1,8 @@
 Extraco::Application.routes.draw do
+
   root to: 'site#index'
+
+  match 'work' => 'site#work'
 
 
   # The priority is based upon order of creation:
