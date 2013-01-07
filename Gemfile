@@ -7,7 +7,7 @@ gem 'rails', '3.2.9'
 
 gem 'pg'
 
-gem "slim-rails", "~> 1.0.3"
+gem "slim-rails", "~> 1.1.0"
 gem 'jquery-rails'
 gem "twitter-bootstrap-rails"
 
