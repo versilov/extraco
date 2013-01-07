@@ -1,0 +1,159 @@
+#content.container
+  .hero-unit
+    h1 Blog
+    p Cupcake ipsum dolor sit amet wafer gummi bears pudding applicake.
+  hr/
+  /! #blog
+  #post.row
+    /! posts
+    .span8
+      /!
+        | Example of image blog item
+        | \==================================================
+      article.post.single-post.image-post
+        /! entry media
+        a.entry-media href="blog-single.html"
+          img alt="" src="assets/13.gif"
+        /! entry meta
+        .entry-meta
+          span.entry-type
+          span.entry-date Jun 13, 2012
+        /! entry body
+        .entry-body
+          h2.entry-title
+            | Example blog post
+        .entry-content
+          p Suspendisse venenatis feugiat congue. Pellentesque vestibulum tellus lacinia libero ultrices vitae eleifend lorem gravida. Suspendisse potenti. Proin mauris elit, sodales dapibus fringilla vitae, pretium a orci. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus eu velit ante. Aenean euismod mollis quam, in dignissim quam fermentum a. Duis mattis hendrerit libero quis malesuada. Sed odio libero, sodales eu lobortis porttitor, ullamcorper non justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+          blockquote Praesent bibendum lobortis lectus, quis dictum risus faucibus sagittis. Mauris a placerat lacus. Mauris rhoncus dolor sit amet nisl volutpat at consequat tortor feugiat. Ut ornare dui eu ipsum lobortis rhoncus.
+          p Integer commodo nibh eget metus mattis id malesuada tellus vestibulum. Ut dictum, libero in porta tempor, metus ligula venenatis mauris, et aliquet libero lorem eu velit. Suspendisse libero odio, varius sed fermentum non, sodales ac dolor. Maecenas iaculis orci eu augue vestibulum vestibulum. Sed in est est, ut sollicitudin massa. Vivamus blandit suscipit molestie. Vivamus molestie ante eget turpis adipiscing sollicitudin. Cras vestibulum posuere erat vel interdum. Nulla rhoncus ultricies nisi sed ornare. Curabitur vel viverra nibh. Etiam ac sagittis arcu. Proin pulvinar, purus vel vehicula gravida, nisl dolor molestie odio, ac facilisis mauris nisi eget est. Nunc tempus, mauris id mattis egestas, tellus justo accumsan est, eu pulvinar est risus eget dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+          p Nam fermentum ornare sagittis. Donec lorem ipsum, imperdiet eu gravida a, tincidunt ac ante. Suspendisse id velit sed est facilisis pulvinar.
+          p
+            a href="#" title=""
+              i Author
+        /! clearfix
+        .clr
+        /!
+          | Comments
+          | \==================================================
+        section#comments
+          h4
+            | Comments
+            span (4)
+          ol.commentlist
+            /! Comment
+            li
+              /! Single comment
+              .comment
+                .avatar
+                  img alt="" src="http://www.gravatar.com/avatar/?d=mm&s=50"
+                .comment-meta
+                  strong John Doe
+                  span.date 5 February 2012
+                  | \/
+                  span.reply
+                    a href="#"
+                .comment-body
+                  | Maecenas dignissim euismod nunc, in commodo est luctus eget. Proin in nunc laoreet justo volutpat blandit enim. Sem felis, ullamcorper vel aliquam non, varius eget justo. Duis quis nunc tellus. Mauris a felis arcu, vitae sollicitudin mauris. Aliquam quis tellus vel massa mattis ornare et eu felis.
+              /! Replies
+              ol.comment-replies
+                li
+                  .comment
+                    .avatar
+                      img alt="" src="http://www.gravatar.com/avatar/?d=mm&s=50"
+                    .comment-meta
+                      strong John Doe
+                      span.date 5 February 2012
+                      | \/
+                      span.reply
+                        a href="#"
+                    .comment-body
+                      | Maecenas dignissim euismod nunc, in commodo est luctus eget. Proin in nunc laoreet justo volutpat blandit enim. Sem felis, ullamcorper vel aliquam non, varius eget justo. Duis quis nunc tellus. Mauris a felis arcu, vitae sollicitudin mauris. Aliquam quis tellus vel massa mattis ornare et eu felis.
+            /! end Comment
+            li
+              .comment
+                .avatar
+                  img alt="" src="http://www.gravatar.com/avatar/?d=mm&s=50"
+                .comment-meta
+                  strong John Doe
+                  span.date 5 February 2012
+                  | \/
+                  span.reply
+                    a href="#"
+                .comment-body
+                  | Maecenas dignissim euismod nunc, in commodo est luctus eget. Proin in nunc laoreet justo volutpat blandit enim. Sem felis, ullamcorper vel aliquam non, varius eget justo. Duis quis nunc tellus. Mauris a felis arcu, vitae sollicitudin mauris. Aliquam quis tellus vel massa mattis ornare et eu felis.
+            li
+              .comment
+                .avatar
+                  img alt="" src="http://www.gravatar.com/avatar/?d=mm&s=50"
+                .comment-meta
+                  strong John Doe
+                  span.date 5 February 2012
+                  | \/
+                  span.reply
+                    a href="#"
+                .comment-body
+                  | Maecenas dignissim euismod nunc, in commodo est luctus eget. Proin in nunc laoreet justo volutpat blandit enim. Sem felis, ullamcorper vel aliquam non, varius eget justo. Duis quis nunc tellus. Mauris a felis arcu, vitae sollicitudin mauris. Aliquam quis tellus vel massa mattis ornare et eu felis.
+          /! end .commentlist
+          h4 Leave a comment
+          br/
+          /!
+            | Comment form
+            | \==================================================
+          form.row action=""
+            .span3
+              label Name
+              input name="" placeholder="Your name" type="text"
+            .span3
+              label E-mail
+              input name="" placeholder="@" type="email"
+            .span8
+              label Your comment
+              textarea name="" placeholder="Your comment" rows="6"
+              p
+                button.btn.btn-primary type="submit"
+                  i.icon-ok
+                  | Post your comment
+      /! end item
+    /! end .span8
+    /!
+      | Sidebar with widgets
+      | \==================================================
+    .sidebar.span4
+      /! search plugin
+      .widget
+        input.animated placeholder="Search" type="search"
+      /! Tags / categories
+      .widget
+        h4 Categories
+        ul.tags
+          li
+            a href="#"
+          li
+            a href="#"
+          li
+            a href="#"
+          li
+            a href="#"
+          li
+            a href="#"
+      /! List widget with custom list icons
+      .widget
+        h4 List widget
+        ul.list-style
+          li
+            i.icon-chevron-right
+            | design
+          li
+            i.icon-chevron-right
+            | user interface
+          li
+            i.icon-chevron-right
+            | typography
+          li
+            i.icon-chevron-right
+            | apps
+          li
+            i.icon-chevron-right
+            | mac os/x
+    /! end sidebar
+  /! end #blog

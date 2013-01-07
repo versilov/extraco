@@ -1,0 +1,165 @@
+#content.container
+  .hero-unit
+    h1.ac Blog!
+    br/
+    p.ac
+      | Cupcake ipsum dolor sit amet wafer gummi bears pudding applicake.
+  hr/
+  /! #blog
+  #blog.row
+    /! posts
+    .span8
+      /!
+        | Example of image blog item
+        | \==================================================
+      article.post.image-post
+        /! entry media
+        a.entry-media href="blog-single.html"
+          img alt="" src="assets/12.gif"
+        /! entry body
+        .entry-body
+          a href="blog-single.html"
+            h2.entry-title
+              | Back to nature
+          p Cupcake ipsum dolor sit amet wafer gummi bears pudding applicake. Jujubes brownie powder. Sweet roll powder gingerbread gummies. Cupcake ice cream sweet roll pie lollipop.
+        /! entry meta
+        .entry-meta
+          span.entry-type
+          span.entry-date Jun 13, 2012
+          span.entry-comments 12 comments
+        /! clearfix
+        .clr
+      /! end item
+      /!
+        | Example of video blog item
+        | \==================================================
+      article.post.video-post
+        a.entry-media href="blog-single.html"
+          iframe allowFullScreen="" frameborder="0" height="340" mozallowfullscreen="" src="http://player.vimeo.com/video/54353836?portrait=0&title=0&byline=0&autoplay=0" webkitAllowFullScreen="" width="600"
+        .entry-body
+          a href="blog-single.html"
+            h2.entry-title Deer
+          p Cupcake ipsum dolor sit amet wafer gummi bears pudding applicake. Jujubes brownie powder. Sweet roll powder gingerbread gummies. Cupcake ice cream sweet roll pie lollipop.
+        .entry-meta
+          span.entry-type
+          span.entry-date Jun 13, 2012
+          span.entry-comments 12 comments
+        .clr
+      /! end item
+      /!
+        | Default blog item
+        | \==================================================
+      article.post
+        a.entry-media href="blog-single.html"
+          img alt="" src="assets/13.gif"
+        .entry-body
+          a href="blog-single.html"
+            h2.entry-title Example blog post
+          p Cupcake ipsum dolor sit amet wafer gummi bears pudding applicake. Jujubes brownie powder. Sweet roll powder gingerbread gummies. Cupcake ice cream sweet roll pie lollipop.
+        .entry-meta
+          span.entry-type
+          span.entry-date Jun 13, 2012
+          span.entry-comments 12 comments
+        .clr
+      /! end item
+      /!
+        | Example of carousel blog item
+        | \==================================================
+      article.post.image-post
+        #carousel.carousel.slide rel="carousel"
+          /! Carousel items
+          .carousel-inner
+            .item.active
+              img alt="" src="assets/13.gif"
+            .item
+              img alt="" src="assets/12.gif"
+          /! Carousel navigation
+          a.carousel-control.left data-slide="prev" href="#carousel"
+          a.carousel-control.right data-slide="next" href="#carousel"
+        .entry-body
+          a href="blog-single.html"
+            h2.entry-title
+              | Example blog post
+          p Cupcake ipsum dolor sit amet wafer gummi bears pudding applicake. Jujubes brownie powder. Sweet roll powder gingerbread gummies. Cupcake ice cream sweet roll pie lollipop.
+        .entry-meta
+          span.entry-type
+          span.entry-date Jun 13, 2012
+          span.entry-comments 12 comments
+        .clr
+      /! end item
+      hr/
+      /!
+        | Pagination
+        | \==================================================
+      .pagination
+        ul
+          li
+            a href="#"
+          li.active
+            a href="#"
+          li
+            a href="#"
+          li
+            a href="#"
+          li
+            a href="#"
+    /! end .span8
+    /!
+      | Sidebar with widgets
+      | \==================================================
+    .sidebar.span4
+      /! search plugin
+      .widget
+        input.animated placeholder="Search" type="search"
+      /! Tags / categories
+      .widget
+        h4 Categories
+        ul.tags
+          li
+            a href="#"
+          li
+            a href="#"
+          li
+            a href="#"
+          li
+            a href="#"
+          li
+            a href="#"
+      /! List widget with custom list icons
+      .widget
+        h4 List widget
+        ul.list-style
+          li
+            i.icon-chevron-right
+            | design
+          li
+            i.icon-chevron-right
+            | user interface
+          li
+            i.icon-chevron-right
+            | typography
+          li
+            i.icon-chevron-right
+            | apps
+          li
+            i.icon-chevron-right
+            | mac os/x
+      /! Example of tabs widget
+      .widget.stacked
+        h4 Tabs
+        ul.nav.nav-tabs
+          li.active
+            a data-toggle="tab" href="#home"
+          li
+            a data-toggle="tab" href="#profile"
+        .tab-content
+          #home.tab-pane.fade.active.in
+            p Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor.
+          #profile.tab-pane.fade
+            p Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor.
+      /! Simple text widget
+      .widget
+        h4 Text widget
+        p Cupcake ipsum dolor sit amet wafer gummi bears pudding applicake. Jujubes brownie powder. Sweet roll powder gingerbread gummies.
+    /! end sidebar
+  /! end #blog

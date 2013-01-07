@@ -3,9 +3,13 @@ Extraco::Application.routes.draw do
   root to: 'site#index'
 
   match 'work' => 'site#work'
+  match 'project' => 'site#project'
   match 'about' => 'site#about'
   match 'price' => 'site#price'
   match 'techno' => 'site#techno'
+  match 'faq' => 'site#faq'
+  match 'blog' => 'site#blog'
+  match 'blog-single' => 'site#blog-single'
   match 'contacts' => 'site#contacts'
 
 
