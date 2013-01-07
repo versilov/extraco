@@ -3,6 +3,7 @@ Extraco::Application.routes.draw do
   root to: 'site#index'
 
   match 'work' => 'site#work'
+  match 'contacts' => 'site#contacts'
 
 
   # The priority is based upon order of creation:
