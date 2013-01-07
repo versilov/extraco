@@ -5,6 +5,7 @@ Extraco::Application.routes.draw do
   match 'work' => 'site#work'
   match 'about' => 'site#about'
   match 'price' => 'site#price'
+  match 'techno' => 'site#techno'
   match 'contacts' => 'site#contacts'
 
 
