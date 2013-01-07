@@ -15,4 +15,5 @@
 /tmp
 # Mac finder artifacts
 .DS_Store
+# RubyMine config directory
 .idea/
