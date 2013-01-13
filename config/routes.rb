@@ -2,7 +2,7 @@ Extraco::Application.routes.draw do
 
   root to: 'site#index'
 
-  match 'work' => 'site#work'
+  match 'projects' => 'site#projects'
   match 'about' => 'site#about'
   match 'price' => 'site#price'
   match 'techno' => 'site#techno'
@@ -13,6 +13,10 @@ Extraco::Application.routes.draw do
 
   match 'projects/project' => 'site#project'
   match 'projects/project-other' => 'site#project-other'
+
+  match 'projects/220ru' => 'site#220ru'
+  match 'projects/extrastore' => 'site#extrastore'
+  match 'projects/extrapost' => 'site#extrapost'
 
 
   # The priority is based upon order of creation:
