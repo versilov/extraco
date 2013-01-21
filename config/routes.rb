@@ -19,6 +19,7 @@ Extraco::Application.routes.draw do
   match 'projects/extrapost' => 'site#extrapost'
   match 'projects/aninet' => 'site#aninet'
   match 'projects/kvait' => 'site#kvait'
+  match 'projects/rrez' => 'site#rrez'
 
 
   # The priority is based upon order of creation:
